@@ -7,13 +7,18 @@
   </head>
   <body>
     <div id="app">
-      <p id="text">
-        Только такая цель позволяет человеку прожить свою жизнь с достоинством и
-        получить настоящую радость
-      </p>
+      <p id="text">Только такая</p>
       <div id="wrongInputText"></div>
-      <textarea name="inputText" id="inputText" cols="50" rows="10"></textarea>
+      <textarea
+        name="inputText"
+        id="inputText"
+        cols="50"
+        rows="10"
+        disabled
+      ></textarea>
     </div>
+    <button id="button">Нажми на меня,что-бы начать вводить текст</button>
+    <button id="buttonOf" hidden="true">Закончить?</button>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
